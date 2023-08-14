@@ -1,34 +1,37 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CENGİZ </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+  <!-- TODO 1: Add the Bootstrap link here. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <style>
+    /* TODO 4: Use flexbox to center the card in the vertical and horizontal center. */
+    .flex-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Cengiz </h1>
-    <h2>I'm a web developer</h2>
-    <hr/>
-    <h3><a href="./public/movie-ranking.html">Film Değerlendirme</a></h3>
-    <img src="./assets/images/Film_Degerlendirme.png" height="200"/>
-    <h3><a href="./public/birthday-invite.html">Doğum günü Davetiyesi</a></h3>
-    <img src="./assets/images/Dogum_Gunu.png" height="200"/>
-    <hr/>
-    <a href="./public/about.html">Hakkimda Bilgi</a>
-    <a   href="./public/contact.html">İletişime Geçin</a>
+  <div class="flex-container">
+    <!-- TODO 2: Add the Bootstrap Prebuilt Card here -->
+    <!-- TODO 3: Change the image src to display the flower.jpg image. -->
+    <div class="card" style="width: 18rem;">
+      <img src="./flower.jpg" class="card-img-top" alt="yellow flower">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
